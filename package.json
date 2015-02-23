@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/.bin/webpack --progress --colors",
+    "serve": "./node_modules/.bin/webpack-dev-server --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^0.9.1",
+    "style-loader": "^0.8.3",
     "webpack": "^1.5.3",
     "webpack-dev-server": "^1.7.0"
   }

@@ -1,5 +1,18 @@
 # webpack simple example
 
+## Script
+
+Create a bundle file by compiling files using webpack.
+```
+$ npm run start
+```
+
+Serve static files on localhost:8080/webpack-dev-server/bundle by compiling files using webpack.
+```
+$ npm run serve
+```
+
+## Steps
 ```
 $ npm init
 This utility will walk you through creating a package.json file.
@@ -119,7 +132,7 @@ bundle.js  1689       0  [emitted]  main
 ```
 
 ```
-$ npm install css-loader style-loader
+$ npm install --save-dev css-loader style-loader
 pm WARN package.json simple@1.0.0 No repository field.
 style-loader@0.8.3 node_modules/style-loader
 └── loader-utils@0.2.6 (json5@0.1.0, big.js@2.5.1)
